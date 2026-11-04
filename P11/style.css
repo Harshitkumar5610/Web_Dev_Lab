@@ -1,0 +1,5 @@
+body { margin: 0; font-family: Arial, sans-serif; }
+header { padding: 20px; background: #e8e8e8; }
+.news-layout { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 16px; padding: 20px; }
+.news-layout article { padding: 18px; background: #f1f1f1; border: 1px solid #ccc; }
+@media (max-width: 650px) { .news-layout { grid-template-columns: 1fr; } }
