@@ -1,8 +1,8 @@
 # Programming for Web Development - I Laboratory
 
-This repository contains my practical work for **Modules 1–3 (P1–P13)**, following the practical titles in the assignment sheet.
+This repository contains my practical work for Modules 1, 2 and 3 (P1–P13).
 
-## Individual practical files
+## Practicals
 
 - [P1 ques.html](./P1%20ques.html) — Project folder and terminal navigation
 - [P2 ques.html](./P2%20ques.html) — Portfolio repo with an initial commit
@@ -18,8 +18,24 @@ This repository contains my practical work for **Modules 1–3 (P1–P13)**, fol
 - [P12 ques.html](./P12%20ques.html) — Portfolio projects grid with advanced CSS Grid
 - [P13 ques.html](./P13%20ques.html) — Choosing between Flexbox and Grid for a shared layout
 
-## View the work
+## Files in this repository
 
-Open [index.html](./index.html) to see the practical list and visit each answer separately.
+- `index.html` — homepage with links to all practicals.
+- `style.css` — external CSS for the homepage.
+- `practical.css` — shared external CSS for the practical pages.
+- `P1 ques.html` to `P13 ques.html` — individual practical answers.
 
-**Note:** The supplied assignment PDF lists the practical titles only. These files are working examples prepared from those titles. If your teacher gave extra instructions or a required output in class, compare each practical with those instructions before submission.
+## How to open the project
+
+1. Download or clone this repository.
+2. Open the folder in Visual Studio Code.
+3. Open `index.html` in a browser.
+4. Choose a practical from the list on the homepage.
+
+## Technologies used
+
+- HTML
+- CSS
+- Git and GitHub
+
+The assignment PDF provided for this work lists the practical titles. The examples are written from those titles, so any extra instructions given separately by the teacher should also be followed.
