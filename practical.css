@@ -1,0 +1,84 @@
+/* Shared stylesheet for P1 to P13 practical pages */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f5f3ee;
+  color: #202b36;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.65;
+}
+
+header {
+  padding: 28px max(6vw, 20px);
+  background: #e9e5dc;
+  border-bottom: 1px solid #ddd5c9;
+}
+
+main {
+  max-width: 900px;
+  margin: 36px auto;
+  padding: 0 20px;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(2rem, 5vw, 3.4rem);
+  line-height: 1.1;
+}
+
+h2 {
+  margin-top: 30px;
+  font-size: 1.35rem;
+}
+
+p {
+  color: #53616d;
+}
+
+pre {
+  overflow-x: auto;
+  padding: 18px;
+  background: #202b36;
+  color: #f4f1e9;
+  border-radius: 12px;
+}
+
+code {
+  font-family: Consolas, monospace;
+}
+
+section {
+  margin: 18px 0;
+  padding: 24px;
+  background: #fffefa;
+  border: 1px solid #e5e0d7;
+  border-radius: 14px;
+}
+
+a {
+  color: #b6533b;
+}
+
+.tag {
+  color: #b6533b;
+  font-weight: bold;
+  letter-spacing: .12em;
+  font-size: .8rem;
+}
+
+.demo {
+  margin: 16px 0;
+  padding: 18px;
+  background: #eee9df;
+  border-radius: 10px;
+}
+
+footer {
+  padding: 25px;
+  color: #68737c;
+  text-align: center;
+}
