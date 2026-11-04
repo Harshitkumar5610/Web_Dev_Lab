@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>P6 ques - Full portfolio page structure in semantic HTML</title>
+  <style>
+    *{box-sizing:border-box}body{margin:0;background:#f5f3ee;color:#202b36;font:16px/1.65 Arial,sans-serif}
+    header{padding:28px max(6vw,20px);background:#e9e5dc;border-bottom:1px solid #ddd5c9}
+    main{max-width:900px;margin:36px auto;padding:0 20px}h1{margin:0;font-size:clamp(2rem,5vw,3.4rem);line-height:1.1}
+    h2{margin-top:30px;font-size:1.35rem}p{color:#53616d}pre{overflow:auto;padding:18px;background:#202b36;color:#f4f1e9;border-radius:12px}
+    code{font-family:Consolas,monospace}section{background:#fffefa;padding:24px;margin:18px 0;border:1px solid #e5e0d7;border-radius:14px}
+    a{color:#b6533b} .tag{color:#b6533b;font-weight:bold;letter-spacing:.12em;font-size:.8rem}
+    .demo{padding:18px;background:#eee9df;border-radius:10px;margin:16px 0}footer{padding:25px;text-align:center;color:#68737c}
+  </style>
+</head>
+<body>
+<header><p class="tag">PROGRAMMING FOR WEB DEVELOPMENT - I</p><h1>P6 ques</h1><p>Full portfolio page structure in semantic HTML</p></header>
+<main>
+<p>Create the main structure of a portfolio website using semantic sections and navigation links.</p>
+
+<section><h2>HTML structure</h2><pre><code>&lt;header&gt;
+  &lt;h1&gt;My Portfolio&lt;/h1&gt;
+  &lt;nav aria-label="Main navigation"&gt;
+    &lt;a href="#about"&gt;About&lt;/a&gt;
+    &lt;a href="#projects"&gt;Projects&lt;/a&gt;
+    &lt;a href="#contact"&gt;Contact&lt;/a&gt;
+  &lt;/nav&gt;
+&lt;/header&gt;
+&lt;main&gt;
+  &lt;section id="about"&gt;
+    &lt;h2&gt;About Me&lt;/h2&gt;
+    &lt;p&gt;A short introduction about me.&lt;/p&gt;
+  &lt;/section&gt;
+  &lt;section id="projects"&gt;
+    &lt;h2&gt;My Projects&lt;/h2&gt;
+    &lt;article&gt;
+      &lt;h3&gt;Project One&lt;/h3&gt;
+      &lt;p&gt;A short project description.&lt;/p&gt;
+    &lt;/article&gt;
+  &lt;/section&gt;
+  &lt;section id="contact"&gt;
+    &lt;h2&gt;Contact&lt;/h2&gt;
+    &lt;p&gt;Email: hello@example.com&lt;/p&gt;
+  &lt;/section&gt;
+&lt;/main&gt;
+&lt;footer&gt;Copyright 2026&lt;/footer&gt;</code></pre></section>
+<section><h2>Explanation</h2><p>The navigation links point to section IDs. The <code>article</code> element groups one project, while the main element contains the page's main content.</p></section>
+<p><a href="../index.html">Back to all practicals</a></p>
+</main>
+<footer>Web Development I Laboratory · P6</footer>
+</body>
+</html>
