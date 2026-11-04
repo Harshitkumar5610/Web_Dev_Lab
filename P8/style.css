@@ -1,0 +1,8 @@
+body { margin: 0; }
+.navbar { position: sticky; top: 0; z-index: 1; padding: 12px 20px; background: #24435c; color: white; }
+.navbar h1 { margin: 0; }
+main { max-width: 700px; margin: 20px auto; padding: 15px; }
+.space { height: 300px; }
+.project-card { position: relative; padding: 20px; border: 1px solid #ccc; }
+.project-image { height: 150px; background: #d9e2e8; }
+.project-label { position: absolute; top: 130px; left: 30px; padding: 6px 10px; background: #d46b4e; color: white; }
