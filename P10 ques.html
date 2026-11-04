@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>P10 ques - Portfolio header and footer with advanced Flexbox</title>
+  <style>
+    *{box-sizing:border-box}body{margin:0;background:#f5f3ee;color:#202b36;font:16px/1.65 Arial,sans-serif}
+    header{padding:28px max(6vw,20px);background:#e9e5dc;border-bottom:1px solid #ddd5c9}
+    main{max-width:900px;margin:36px auto;padding:0 20px}h1{margin:0;font-size:clamp(2rem,5vw,3.4rem);line-height:1.1}
+    h2{margin-top:30px;font-size:1.35rem}p{color:#53616d}pre{overflow:auto;padding:18px;background:#202b36;color:#f4f1e9;border-radius:12px}
+    code{font-family:Consolas,monospace}section{background:#fffefa;padding:24px;margin:18px 0;border:1px solid #e5e0d7;border-radius:14px}
+    a{color:#b6533b} .tag{color:#b6533b;font-weight:bold;letter-spacing:.12em;font-size:.8rem}
+    .demo{padding:18px;background:#eee9df;border-radius:10px;margin:16px 0}footer{padding:25px;text-align:center;color:#68737c}
+  </style>
+</head>
+<body>
+<header><p class="tag">PROGRAMMING FOR WEB DEVELOPMENT - I</p><h1>P10 ques</h1><p>Portfolio header and footer with advanced Flexbox</p></header>
+<main>
+<p>Arrange the portfolio title and navigation in the header, and align footer details using Flexbox.</p>
+
+<section><h2>HTML example</h2><pre><code>&lt;header class="site-header"&gt;
+  &lt;strong&gt;My Portfolio&lt;/strong&gt;
+  &lt;nav&gt;About · Work · Contact&lt;/nav&gt;
+&lt;/header&gt;
+
+&lt;footer class="site-footer"&gt;
+  &lt;span&gt;Made by me&lt;/span&gt;
+  &lt;span&gt;Back to top ↑&lt;/span&gt;
+&lt;/footer&gt;</code></pre>
+<h2>CSS code</h2><pre><code>.site-header, .site-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 20px;
+}
+
+.site-header {
+  background: #e9e5dc;
+}
+
+.site-footer {
+  border-top: 1px solid #ddd5c9;
+}</code></pre></section>
+<section><h2>Explanation</h2><p><code>justify-content: space-between</code> places space between the items, <code>align-items: center</code> aligns them across the cross axis, and <code>flex-wrap</code> allows a second line on smaller screens.</p></section>
+<p><a href="../index.html">Back to all practicals</a></p>
+</main>
+<footer>Web Development I Laboratory · P10</footer>
+</body>
+</html>
