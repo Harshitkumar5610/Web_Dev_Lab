@@ -20,6 +20,14 @@ Open `index.html` in a browser and scroll down to test the sticky navbar.
 ## What I learned
 Positioning properties control where elements appear on a page.
 
+
+## Files in this practical
+- [index.html](./index.html) — HTML structure and example.
+- [style.css](./style.css) — external CSS used by the HTML page.
+
+## How to view
+Open `index.html` in a browser. The page loads its design from `style.css`.
+
 ---
 
 [Back to the repository homepage](../index.html)
