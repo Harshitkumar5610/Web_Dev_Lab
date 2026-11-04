@@ -1,0 +1,5 @@
+header, footer { padding: 20px; background: #e8e8e8; }
+nav a { margin-right: 12px; color: #174f75; }
+main { max-width: 850px; margin: 20px auto; padding: 15px; }
+section, article { margin: 15px 0; padding: 15px; border: 1px solid #ccc; }
+footer { text-align: center; }
