@@ -22,6 +22,14 @@ Open `index.html` in a browser and use the navigation links to move to each sect
 ## What I learned
 Semantic HTML gives each part of a page a clear purpose. Section IDs allow navigation links to jump to the right place.
 
+
+## Files in this practical
+- [index.html](./index.html) — HTML structure and example.
+- [style.css](./style.css) — external CSS used by the HTML page.
+
+## How to view
+Open `index.html` in a browser. The page loads its design from `style.css`.
+
 ---
 
 [Back to the repository homepage](../index.html)
