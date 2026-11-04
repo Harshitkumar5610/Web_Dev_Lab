@@ -1,0 +1,8 @@
+body { margin: 0; font-family: Arial, sans-serif; }
+.site-header, .site-footer { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 15px; padding: 20px; }
+.site-header { background: #e8e8e8; }
+.site-header h1 { margin: 0; }
+nav { display: flex; gap: 15px; }
+nav a { color: #174f75; }
+main { min-height: 250px; padding: 25px; }
+.site-footer { background: #24435c; color: white; }
