@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>P9 ques - Responsive navbar and card grid using Flexbox</title>
+  <style>
+    *{box-sizing:border-box}body{margin:0;background:#f5f3ee;color:#202b36;font:16px/1.65 Arial,sans-serif}
+    header{padding:28px max(6vw,20px);background:#e9e5dc;border-bottom:1px solid #ddd5c9}
+    main{max-width:900px;margin:36px auto;padding:0 20px}h1{margin:0;font-size:clamp(2rem,5vw,3.4rem);line-height:1.1}
+    h2{margin-top:30px;font-size:1.35rem}p{color:#53616d}pre{overflow:auto;padding:18px;background:#202b36;color:#f4f1e9;border-radius:12px}
+    code{font-family:Consolas,monospace}section{background:#fffefa;padding:24px;margin:18px 0;border:1px solid #e5e0d7;border-radius:14px}
+    a{color:#b6533b} .tag{color:#b6533b;font-weight:bold;letter-spacing:.12em;font-size:.8rem}
+    .demo{padding:18px;background:#eee9df;border-radius:10px;margin:16px 0}footer{padding:25px;text-align:center;color:#68737c}
+  </style>
+</head>
+<body>
+<header><p class="tag">PROGRAMMING FOR WEB DEVELOPMENT - I</p><h1>P9 ques</h1><p>Responsive navbar and card grid using Flexbox</p></header>
+<main>
+<p>Use Flexbox to arrange navigation links and project cards, allowing them to wrap when the screen becomes narrow.</p>
+
+<section><h2>HTML example</h2><pre><code>&lt;nav class="nav-links"&gt;
+  &lt;a href="#home"&gt;Home&lt;/a&gt;
+  &lt;a href="#about"&gt;About&lt;/a&gt;
+  &lt;a href="#work"&gt;Work&lt;/a&gt;
+  &lt;a href="#contact"&gt;Contact&lt;/a&gt;
+&lt;/nav&gt;
+
+&lt;div class="cards"&gt;
+  &lt;article class="card"&gt;Project 1&lt;/article&gt;
+  &lt;article class="card"&gt;Project 2&lt;/article&gt;
+  &lt;article class="card"&gt;Project 3&lt;/article&gt;
+&lt;/div&gt;</code></pre>
+<h2>CSS code</h2><pre><code>.nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.card {
+  flex: 1 1 220px;
+  padding: 24px;
+  background: #eee9df;
+  border-radius: 10px;
+}</code></pre></section>
+<section><h2>Explanation</h2><p>Flexbox arranges items in a row by default. <code>flex-wrap: wrap</code> lets them move onto another line when there is not enough space. The card basis helps cards keep a useful minimum width.</p></section>
+<p><a href="../index.html">Back to all practicals</a></p>
+</main>
+<footer>Web Development I Laboratory · P9</footer>
+</body>
+</html>
