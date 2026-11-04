@@ -21,6 +21,14 @@ Open `index.html` in a browser and change the window width.
 ## What I learned
 CSS Grid can make a responsive card layout without writing a separate rule for every screen size.
 
+
+## Files in this practical
+- [index.html](./index.html) — HTML structure and example.
+- [style.css](./style.css) — external CSS used by the HTML page.
+
+## How to view
+Open `index.html` in a browser. The page loads its design from `style.css`.
+
 ---
 
 [Back to the repository homepage](../index.html)
