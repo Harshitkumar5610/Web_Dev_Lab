@@ -1,0 +1,14 @@
+/* Design tokens */
+:root {
+  --main-color: #24435c;
+  --accent-color: #d46b4e;
+  --page-background: #f5f3ee;
+  --space: 16px;
+  --body-font: Arial, sans-serif;
+}
+body { margin: 0; background: var(--page-background); font-family: var(--body-font); }
+header { padding: var(--space); background: var(--main-color); color: white; }
+main { max-width: 800px; margin: 20px auto; padding: var(--space); }
+.card { margin-bottom: var(--space); padding: var(--space); border-left: 4px solid var(--accent-color); background: white; }
+h1, h2 { color: var(--main-color); }
+header h1 { color: white; }
