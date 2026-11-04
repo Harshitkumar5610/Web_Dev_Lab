@@ -1,0 +1,5 @@
+body { margin: 0; font-family: Arial, sans-serif; }
+header { padding: 20px; background: #e8e8e8; }
+main { padding: 20px; }
+.project-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; }
+.project-card { padding: 20px; background: #f1f1f1; border: 1px solid #ccc; }
