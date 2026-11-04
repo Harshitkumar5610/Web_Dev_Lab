@@ -20,6 +20,14 @@ Open `index.html` in a browser and inspect both examples.
 ## What I learned
 The choice depends on how the content needs to be arranged. Flexbox and Grid can work together.
 
+
+## Files in this practical
+- [index.html](./index.html) — HTML structure and example.
+- [style.css](./style.css) — external CSS used by the HTML page.
+
+## How to view
+Open `index.html` in a browser. The page loads its design from `style.css`.
+
 ---
 
 [Back to the repository homepage](../index.html)
