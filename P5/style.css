@@ -1,0 +1,4 @@
+header, footer { padding: 18px; background: #e8e8e8; }
+main { max-width: 700px; margin: 20px auto; padding: 15px; }
+section { margin-bottom: 20px; padding: 15px; border: 1px solid #ccc; }
+h1, h2 { color: #24435c; }
