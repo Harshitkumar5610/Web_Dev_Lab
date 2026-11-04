@@ -15,6 +15,14 @@ Open `index.html` in a browser. Edit the sample introduction and interests to ma
 ## What I learned
 Semantic tags describe the purpose of page content and make the structure easier to understand.
 
+
+## Files in this practical
+- [index.html](./index.html) — HTML structure and example.
+- [style.css](./style.css) — external CSS used by the HTML page.
+
+## How to view
+Open `index.html` in a browser. The page loads its design from `style.css`.
+
 ---
 
 [Back to the repository homepage](../index.html)
