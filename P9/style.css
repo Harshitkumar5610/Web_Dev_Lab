@@ -1,0 +1,6 @@
+header { padding: 20px; background: #e8e8e8; }
+.nav-links { display: flex; flex-wrap: wrap; gap: 16px; }
+.nav-links a { color: #174f75; }
+main { padding: 20px; }
+.cards { display: flex; flex-wrap: wrap; gap: 16px; }
+.card { flex: 1 1 200px; padding: 20px; background: #f1f1f1; border: 1px solid #ccc; }
