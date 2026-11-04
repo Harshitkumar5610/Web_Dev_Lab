@@ -15,6 +15,14 @@ Open `index.html` in a browser and resize the window to see the items wrap.
 ## What I learned
 Flexbox can align items and distribute available space. Wrapping helps the layout on narrow screens.
 
+
+## Files in this practical
+- [index.html](./index.html) — HTML structure and example.
+- [style.css](./style.css) — external CSS used by the HTML page.
+
+## How to view
+Open `index.html` in a browser. The page loads its design from `style.css`.
+
 ---
 
 [Back to the repository homepage](../index.html)
