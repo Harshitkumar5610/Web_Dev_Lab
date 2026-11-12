@@ -1,3 +1,4 @@
+
 # P1: Project folder and terminal navigation
 
 ## Aim
@@ -33,3 +34,6 @@ my-portfolio/
 
 ## Result
 The portfolio project folder and its basic structure were created using terminal commands.
+
+## Terminal Output
+<img width="1216" height="216" alt="Screenshot 2026-11-12 at 6 21 02 PM" src="https://github.com/user-attachments/assets/76f87022-11d6-4bc4-b48a-06c7bec67a13" />
