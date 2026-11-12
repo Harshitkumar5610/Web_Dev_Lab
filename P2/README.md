@@ -1,3 +1,4 @@
+
 # P2: Portfolio repo with an initial commit
 
 Create a Git repository for the portfolio and save its first version.
@@ -7,7 +8,8 @@ Create a Git repository for the portfolio and save its first version.
 2. Start Git in the folder.
 3. Add the files and make the first commit.
 4. Create an empty GitHub repository.
-5. Connect the local project to GitHub and push it.
+5. Connect the local project to GitHub and push it
+
 
 ## Commands
 ```bash
@@ -30,3 +32,7 @@ The project files appear in the GitHub repository.
 ---
 
 [Back to the repository homepage](../index.html)
+
+
+# terminal proof
+<img width="642" height="244" alt="Screenshot 2026-11-12 at 6 36 22 PM" src="https://github.com/user-attachments/assets/ae592b56-d042-41bc-8078-b470a713949b" />
