@@ -35,4 +35,9 @@ A README explains a project to other people. A Git tag marks a particular commit
 
 ---
 
-[Back to the repository homepage](../index.html)
+# terminal proof 
+
+<img width="1250" height="364" alt="image" src="https://github.com/user-attachments/assets/5bbc2bbb-fb9e-47b8-9d29-625ce6db3f9e" />
+
+
+
