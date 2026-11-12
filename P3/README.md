@@ -26,4 +26,9 @@ A branch lets me work on a change separately without directly changing the main 
 
 ---
 
-[Back to the repository homepage](../index.html)
+# terminal proof
+
+
+  
+  <img width="587" height="303" alt="Screenshot 2026-11-12 at 6 40 21 PM" src="https://github.com/user-attachments/assets/065b3e32-5e06-4ffa-b063-dd4a2c5036d1" />
+
