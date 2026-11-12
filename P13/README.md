@@ -1,33 +1,22 @@
 # P13: Choosing between Flexbox and Grid for a shared layout
 
-Compare Flexbox and Grid and use each one where it makes the most sense.
-
 ## Aim
-Show the difference between one-dimensional Flexbox layouts and two-dimensional Grid layouts.
+Understand the difference between Flexbox and Grid and use both in one web page.
 
-## Main concepts
-- Flexbox is suited to a row or a column, such as navigation links.
-- Grid is suited to rows and columns together, such as a content area with a sidebar.
-- Both can be used in the same website.
+## What this practical shows
+- Flexbox arranges the navigation links in a row.
+- Grid arranges the main content and sidebar in columns.
+- Both layout methods can be used together on the same page.
 
 ## Files
-- `index.html` shows a Flexbox navigation and a Grid page layout.
-- `style.css` contains both layout methods.
+- `index.html` contains the page structure.
+- `style.css` contains the Flexbox and Grid styles.
 
 ## How to run
-Open `index.html` in a browser and inspect both examples.
+Open `index.html` in a web browser. The navigation links should appear in one row, with the main content and sidebar beside each other.
+
+## Result
+The page uses Flexbox for the navigation and CSS Grid for the content layout.
 
 ## What I learned
-The choice depends on how the content needs to be arranged. Flexbox and Grid can work together.
-
-
-## Files in this practical
-- [index.html](./index.html) — HTML structure and example.
-- [style.css](./style.css) — external CSS used by the HTML page.
-
-## How to view
-Open `index.html` in a browser. The page loads its design from `style.css`.
-
----
-
-[Back to the repository homepage](../index.html)
+Flexbox is useful for arranging items in one direction. Grid is useful when a layout needs rows and columns. We can choose either one depending on the layout.
