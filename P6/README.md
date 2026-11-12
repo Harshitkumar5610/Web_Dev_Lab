@@ -32,4 +32,3 @@ Open `index.html` in a browser. The page loads its design from `style.css`.
 
 ---
 
-[Back to the repository homepage](../index.html)
