@@ -1,8 +1,35 @@
-body { margin: 0; font-family: Arial, sans-serif; }
-header { padding: 20px; background: #e8e8e8; }
-main { padding: 20px; }
-.navigation { display: flex; gap: 18px; padding: 15px; background: #f1f1f1; }
-.navigation a { color: #174f75; }
-.page-layout { display: grid; grid-template-columns: 2fr 1fr; gap: 16px; }
-.content, .sidebar { padding: 18px; background: #f1f1f1; border: 1px solid #ccc; }
-@media (max-width: 600px) { .page-layout { grid-template-columns: 1fr; } }
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: lightgray;
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Flexbox is used to arrange the navigation links in a row. */
+.navigation {
+    display: flex;
+    gap: 20px;
+    padding: 15px;
+    background-color: #eeeeee;
+}
+
+/* Grid is used to arrange the main content and sidebar in columns. */
+.page-layout {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 15px;
+}
+
+.content,
+.sidebar {
+    padding: 15px;
+    background-color: #eeeeee;
+    border: 1px solid gray;
+}
