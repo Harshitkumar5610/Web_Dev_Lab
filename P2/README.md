@@ -31,7 +31,7 @@ The project files appear in the GitHub repository.
 
 ---
 
-[Back to the repository homepage](../index.html)
+
 
 
 # terminal proof
