@@ -12,7 +12,7 @@ main {
     padding: 20px;
 }
 
-/* Flexbox is used to arrange the navigation links in a row. */
+
 .navigation {
     display: flex;
     gap: 20px;
@@ -20,7 +20,7 @@ main {
     background-color: #eeeeee;
 }
 
-/* Grid is used to arrange the main content and sidebar in columns. */
+
 .page-layout {
     display: grid;
     grid-template-columns: 2fr 1fr;
